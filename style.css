@@ -325,6 +325,135 @@ aside ul li a:hover {
   .child3 {
     display: none;
   }
+  
+.footer {
+    width: 100%;
+    background-color: #202124;
+    color: white;
+    padding: 50px 10%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-left {
+    flex: 1;
+    min-width: 200px;
+}
+
+.mdn-logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #8ab4f8;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-column h3 {
+    color: white;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.footer-column a {
+    color: #eeeeee;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.footer-column a:hover {
+    color: #8ab4f8;
+}
+
+.footer-bottom {
+    border-top: 1px solid #414141;
+    margin-top: 50px;
+    padding-top: 35px;
+}
+
+.mozilla-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.mozilla-logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mozilla-links a {
+    color: white;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.footer-bottom p {
+    color: #eeeeee;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.footer-bottom p a {
+    color: white;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 6%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .footer-left {
+        width: 100%;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+}
 
   .btn {
     display: inline-block;
